@@ -26,6 +26,6 @@ jobs:
     - name: Build and push
       id: docker_build
       uses: docker/build-push-action@v2
-        with:
-          push: true
-          tags: hiabre/jmeter_prom_exporter:latest
+      with:
+        push: true
+        tags: hiabre/jmeter_prom_exporter:latest
