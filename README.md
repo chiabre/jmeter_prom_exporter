@@ -1,4 +1,4 @@
-# Docker image for **Apache JMeter** + **Prometheus Listener for Jmeter**
+# Docker image for Apache JMeter + Prometheus Listener for Jmeter
 
 Docker image to run Jmeter exposing Prometheus Listener for Jmeter metrics.
 
