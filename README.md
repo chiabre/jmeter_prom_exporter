@@ -28,10 +28,12 @@ Additional info:
 
 ### Supported tags
 
-* Apache JMeter 5.3 (openjdk 11) + Prometheus Listener for Jmeter 0.60
-   * `latest`, `5.3-0.6.0`
+* Apache JMeter 5.4.1 (openjdk 11) + Prometheus Listener for Jmeter 0.60
+   * `latest`, `5.4.1-0.6.0`
+* Apache JMeter 5.4 (openjdk 11) + Prometheus Listener for Jmeter 0.60
+   * `5.4-0.6.0`
 * Apache JMeter 5.2 (openjdk 11) + Prometheus Listener for Jmeter 0.60
-   * `5.2-0.6.0`
+   * `5.3-0.6.0`
 
 ## How to use this image
 
@@ -41,7 +43,7 @@ Additional info:
 
 ### Run using
 
-`docker run --rm --name jmeter -i -v ${PWD}:${PWD} -w ${PWD} -p 9270:9270 chiabre/jmeter_prom_exporter:5.4-0.6.0 -t [YOUR_SCRIPT].jmx`
+`docker run --rm --name jmeter -i -v ${PWD}:${PWD} -w ${PWD} -p 9270:9270 chiabre/jmeter_prom_exporter:5.4-1.6.0 -t [YOUR_SCRIPT].jmx`
 
 `[YOUR_SCRIPT].jmx` as to be present in the ${PWD} directory, it will be mounted into the image working directory. Additional JMeter or Promethues listern argument can be appended to the command.
 

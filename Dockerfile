@@ -5,7 +5,7 @@ FROM alpine:3.12.1
 
 LABEL maintainer="luca.chiabrera@gmail.com"
 
-ARG JMETER_VERSION="5.4"
+ARG JMETER_VERSION="5.4.1"
 
 ARG OPENJDK_VERSION="11"
 
