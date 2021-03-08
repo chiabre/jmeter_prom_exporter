@@ -51,5 +51,10 @@ During test execution the Prometheus JMX exporter metrics are at:
 
 http://[JMETER]:9270/metrics/
 
+### JMeter plugins
+
+Additional JMeter plugins can me mounted in container in the following folder /opt/apache-jmeter-${JMETER_VERSION}/lib/ext
+
+
 ## Credits
 Thanks to https://github.com/hauptmedia/docker-jmeter, https://github.com/hhcordero/docker-jmeter-server and https://github.com/justb4/docker-jmeter for providing the Dockerfiles that inspired me. 
