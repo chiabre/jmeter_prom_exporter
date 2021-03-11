@@ -2,17 +2,19 @@
 
 Docker image to run Jmeter exposing Prometheus Listener for Jmeter metrics.
 
-* **Apache JMeter** : an application designed to load test functional behavior and measure performance - https://jmeter.apache.org
+**Apache JMeter**
+an application designed to load test functional behavior and measure performance - https://jmeter.apache.org
 
-* **Prometheus Listener for Jmeter** : an independent JMeter pluign to expose JMeter metrics to Prometheuss - https://github.com/johrstrom/jmeter-prometheus-plugin
+**Prometheus Listener for Jmeter**
+an independent JMeter pluign to expose JMeter metrics to Prometheuss - https://github.com/johrstrom/jmeter-prometheus-plugin
 
-* The **version number** of this images is composed of two version numbers
+The **version number** of this images is composed of two version numbers
   * the first is the version of the Apache JMeter 
   * the second is the version of Prometheus Listener for Jmeter embedded in this docker image
 
 ## Apache JMeter including + Prometheus Listener for Jmeter
 
-`chiabre/kk_jmx_exporter`
+`chiabre/jmeter_prom_exporter`
 * Find Images of this repo on [docker hub](https://hub.docker.com/repository/docker/chiabre/jmeter_prom_exporter)
 * Find repo of this images on [github](https://github.com/chiabre/jmeter_prom_exporter)
 
