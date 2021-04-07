@@ -45,7 +45,7 @@ Additional info:
 
 ### Run using
 
-`docker run --rm --name jmeter -i -v ${PWD}:${PWD} -w ${PWD} -p 9270:9270 chiabre/jmeter_prom_exporter:5.4-1.6.0 -t [YOUR_SCRIPT].jmx`
+`docker run --rm --name jmeter -i -v ${PWD}:${PWD} -w ${PWD} -p 9270:9270 chiabre/jmeter_prom_exporter:5.4.1-0.6.0 -t [YOUR_SCRIPT].jmx`
 
 `[YOUR_SCRIPT].jmx` as to be present in the ${PWD} directory, it will be mounted into the image working directory. Additional JMeter or Promethues listern argument can be appended to the command.
 
