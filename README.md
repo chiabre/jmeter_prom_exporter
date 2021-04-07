@@ -15,8 +15,9 @@ The **version number** of this images is composed of two version numbers
 ## Apache JMeter including + Prometheus Listener for Jmeter
 
 `chiabre/jmeter_prom_exporter`
-* Find Images of this repo on [docker hub](https://hub.docker.com/repository/docker/chiabre/jmeter_prom_exporter)
-* Find repo of this images on [github](https://github.com/chiabre/jmeter_prom_exporter)
+
+* Images of this repo on [docker hub](https://hub.docker.com/repository/docker/chiabre/jmeter_prom_exporter)
+* Repo of this images on [github](https://github.com/chiabre/jmeter_prom_exporter)
 
 This images provides:
 * Standard JMeter execution passing all argumets provided to the Docker container to the JMeter process
