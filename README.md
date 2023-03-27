@@ -31,6 +31,8 @@ Additional info:
 
 ### Supported tags
 
+* Apache JMeter 5.5 (openjdk 11) + Prometheus Listener for Jmeter 0.60
+   * `latest`, `5.5-0.6.0`
 * Apache JMeter 5.4.1 (openjdk 11) + Prometheus Listener for Jmeter 0.60
    * `latest`, `5.4.1-0.6.0`
 * Apache JMeter 5.4 (openjdk 11) + Prometheus Listener for Jmeter 0.60
