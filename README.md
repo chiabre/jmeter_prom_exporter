@@ -31,13 +31,13 @@ Additional info:
 
 ### Supported tags
 
-* Apache JMeter 5.5 (openjdk 11) + Prometheus Listener for Jmeter 0.60
+* Apache JMeter 5.5 (openjdk 11) + Prometheus Listener for Jmeter 0.6.0
    * `latest`, `5.5-0.6.0`
-* Apache JMeter 5.4.1 (openjdk 11) + Prometheus Listener for Jmeter 0.60
+* Apache JMeter 5.4.1 (openjdk 11) + Prometheus Listener for Jmeter 0.6.0
    * `5.4.1-0.6.0`
-* Apache JMeter 5.4 (openjdk 11) + Prometheus Listener for Jmeter 0.60
+* Apache JMeter 5.4 (openjdk 11) + Prometheus Listener for Jmeter 0.6.0
    * `5.4-0.6.0`
-* Apache JMeter 5.3 (openjdk 11) + Prometheus Listener for Jmeter 0.60
+* Apache JMeter 5.3 (openjdk 11) + Prometheus Listener for Jmeter 0.6.0
    * `5.3-0.6.0`
 
 ## How to use this image
