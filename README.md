@@ -37,7 +37,7 @@ Additional info:
    * `5.4.1-0.6.0`
 * Apache JMeter 5.4 (openjdk 11) + Prometheus Listener for Jmeter 0.60
    * `5.4-0.6.0`
-* Apache JMeter 5.2 (openjdk 11) + Prometheus Listener for Jmeter 0.60
+* Apache JMeter 5.3 (openjdk 11) + Prometheus Listener for Jmeter 0.60
    * `5.3-0.6.0`
 
 ## How to use this image
